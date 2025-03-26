@@ -90,7 +90,7 @@ From there we can create the following:
 
   - Severity-C (Grace Period: 8 hours, Business Hours)
 
-What these SLAs tell us is how severe a user's issue is (this is most of the time configured by a SysAdmin or Manager, not by a user), how long we have to respond to or resolve the issue, and at what times the agents work on them (ex. buisness hours, 24/5, 24/7, etc...)
+What these SLAs tell us is how severe a user's issue is (this is most of the time configured by a SysAdmin or Manager, not by a user), how much time we have to respond to or resolve the issue, and at what times the agents work on them (ex. buisness hours, 24/5, 24/7, etc...)
 
 
 
