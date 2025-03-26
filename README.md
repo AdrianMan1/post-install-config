@@ -36,10 +36,12 @@ Under the "Agents" and "Roles" tabs within the Admin Panel of osTicket allows us
 <p>
 
   
-Here we have created a new user with the title "Supreme User" which has been configured to have unlimited permissions. Other roles such as "View Only" would only be able to see tickets but not be able to change them, while roles such as "Limited Access" can view and change tickets but not be able to do other things like assign it to another agent. 
+Here we have created a new user with the title "Supreme Admin" which has been configured to have unlimited permissions. Other roles such as "View Only" would only be able to see tickets but not be able to change them, while roles such as "Limited Access" can view and change ticket properties but not be able to do other things like assign it to another agent. 
 
+
+Permissions for all roles are configured within the roles tab of the admin portal, as seen below. 
 ![image](https://github.com/user-attachments/assets/77a8ec7e-5616-4090-a6b1-ceb246d3b87c)
-Permissions for all roles are configured within the roles tab of the admin portal, as seen above. 
+
   
   <p> 
   </p>
@@ -58,7 +60,7 @@ Using a similar process to what we did before, we can create and configure new &
 Above we are creating a new agent "Jane Doe" who will have the "Supreme Admin" role, belong to an "Online Banking" team within the SysAdmins Department. 
 The process of creating these entities is similar to creating roles.
 
-Agents: Admin Panel > Agent Tab > Add New Agent > Create the agent & assign access, permissions & teams they belong to.
+<b>Agents<b>: Admin Panel > Agent Tab > Add New Agent > Create the agent & assign access, permissions & teams they belong to.
 
 Teams: Admin Panel > Teams Tab > Add New Team > Create team name (ex. Online Banking) & assign members.
 
@@ -70,15 +72,15 @@ Departments: Admin Panel > Departments Tab > Add New Department > Create the Dep
 
 <ins>Configure SLAs
   ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</ins>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 
 If you are not familiar with SLAs (Surface Level Agreements), they are an agreement between a service provider (in this case, a helpdesk within osTicket) and a user/customer that describes standards of service regarding quality, avaliability and responsibilities. In our ticketing system, we need to create SLAs to give our agents a framework for the service to provide a customer. 
 
 Within the osTicket portal we are able to configure these SLAs by going to: 
 Admin Panel > Manage > SLA
+
+![image](https://github.com/user-attachments/assets/2ec660e7-af2e-47df-8595-72d87aed0e03)
 
 From there we can create the following:
 
@@ -90,7 +92,29 @@ From there we can create the following:
 
 What these SLAs tell us is how severe a user's issue is (this is most of the time configured by a SysAdmin or Manager, not by a user), how long we have to respond to or resolve the issue, and at what times the agents work on them (ex. buisness hours, 24/5, 24/7, etc...)
 
+
+
 After configuring SLAs, we can configure our help topics with said them so users using our ticketing system can have a plain-text way of describing their problem while the agents can get these tickets knowing when and how to respond. 
+
+<ins> Configuring Help Topics </ins>
+
+Help topics are our bread and butter when it comes to users describing their issues through the ticketing portal. We can configure help topics to have specific traits & categorize user issues into different priorities & severities. 
+Help Topics are configured, once again, through the admin panel. 
+
+![image](https://github.com/user-attachments/assets/9cc794b1-4dc3-4294-92e0-8a41987543c4)
+
+While most ticketing systems come prebuilt with their own help topics (as seen above), creating new ones is necessary if the pre-made help topics dont describe issues accurately. 
+
+We want to have a user report their issue accurately, however that isnt always the case due to either lack of options or user error. In this case, there are two things we can do. Create a new help topic and/or have an administrator change the help topic of a user & assign it to an agent after the problem is accurately assigned. 
+
+To create a new help topic:
+Admin Panel > Manage > Help Topics > Add New Help Topic
+
+In this case we would be making a help topic that is specifically for resetting passwords as it is a very common issue, as opposed to a user stating that they have a very critical issue they need solved when in reality its just a simple password reset. 
+
+![image](https://github.com/user-attachments/assets/fcafd24a-522f-456d-a5a8-cc99d6e0b37f)
+
+
 
 
 
