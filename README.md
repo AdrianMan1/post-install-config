@@ -33,7 +33,7 @@ Under the "Agents" and "Roles" tabs within the Admin Panel of osTicket allows us
 <img width="701" alt="Screenshot 2025-03-25 at 10 41 32 AM" src="https://github.com/user-attachments/assets/bee440ae-154f-4c3a-8fa1-5c6327a88065" />
 
 
-<p>
+</p>
 
   
 Here we have created a new user with the title "Supreme Admin" which has been configured to have unlimited permissions. Other roles such as "View Only" would only be able to see tickets but not be able to change them, while roles such as "Limited Access" can view and change ticket properties but not be able to do other things like assign it to another agent. 
@@ -60,11 +60,11 @@ Using a similar process to what we did before, we can create and configure new &
 Above we are creating a new agent "Jane Doe" who will have the "Supreme Admin" role, belong to an "Online Banking" team within the SysAdmins Department. 
 The process of creating these entities is similar to creating roles.
 
-<b>Agents<b>: Admin Panel > Agent Tab > Add New Agent > Create the agent & assign access, permissions & teams they belong to.
+**Agents**: Admin Panel > Agent Tab > Add New Agent > Create the agent & assign access, permissions & teams they belong to.
 
-Teams: Admin Panel > Teams Tab > Add New Team > Create team name (ex. Online Banking) & assign members.
+**Teams**: Admin Panel > Teams Tab > Add New Team > Create team name (ex. Online Banking) & assign members.
 
-Departments: Admin Panel > Departments Tab > Add New Department > Create the Department (Ex. SysAdmins) and determine SLAs & who is a part of this departmemt. 
+**Departments**: Admin Panel > Departments Tab > Add New Department > Create the Department (Ex. SysAdmins) and determine SLAs & who is a part of this departmemt. 
 
   
 </p>
